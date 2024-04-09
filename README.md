@@ -184,3 +184,4 @@ If you couldnt install binary bot with a different node version, try cleaning np
 ### <a name='q2'>2. Cannot access the site</a>
 
 Make sure to use: localhost:8000
+"# synthetic-markets-algo-creater"
