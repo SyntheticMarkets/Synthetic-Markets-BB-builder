@@ -6,7 +6,7 @@ Blockly.Blocks.todatetime = {
         this.appendValueInput('TIMESTAMP').appendField(translate('To Date/Time'));
         this.setInputsInline(true);
         this.setOutput(true, 'String');
-        this.setColour('#dedede');
+        this.setColour('#162d41'); // date since epoch block colour <<<<<<//
         this.setTooltip(
             translate(
                 'Converts a number of seconds since Epoch into a string representing date and time. Example: 1546347825 will be converted to 2019-01-01 21:03:45.'

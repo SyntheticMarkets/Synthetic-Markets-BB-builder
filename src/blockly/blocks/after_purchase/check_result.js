@@ -8,7 +8,7 @@ Blockly.Blocks.contract_check_result = {
             .appendField(translate('Result is'))
             .appendField(new Blockly.FieldDropdown(config.lists.CHECK_RESULT), 'CHECK_RESULT');
         this.setOutput(true, 'Boolean');
-        this.setColour('#f2f2f2');
+        this.setColour('#162d41'); // check trade results trade is win block colour <<<<<<<<<//
         this.setTooltip(translate('True if the result matches the selection'));
         this.setHelpUrl('https://github.com/binary-com/binary-bot/wiki');
     },

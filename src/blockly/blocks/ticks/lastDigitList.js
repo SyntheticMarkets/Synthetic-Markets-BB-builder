@@ -5,7 +5,7 @@ Blockly.Blocks.lastDigitList = {
     init: function init() {
         this.appendDummyInput().appendField(translate('Last Digit List'));
         this.setOutput(true, 'Array');
-        this.setColour('#f2f2f2');
+        this.setColour('#162d41'); // Last digit list block colour <<<<<<//
         this.setTooltip(translate('Returns the list of last digit values'));
         this.setHelpUrl('https://github.com/binary-com/binary-bot/wiki');
     },

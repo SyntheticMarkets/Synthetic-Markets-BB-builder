@@ -4,7 +4,7 @@ Blockly.Blocks.total_runs = {
     init: function init() {
         this.appendDummyInput().appendField(translate('No. Of Runs'));
         this.setOutput(true, 'Number');
-        this.setColour('#dedede');
+        this.setColour('#162d41'); // total run block colour <<<<<//
         this.setTooltip(translate('Returns the number of runs since the beginning'));
         this.setHelpUrl('https://github.com/binary-com/binary-bot/wiki');
     },

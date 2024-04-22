@@ -5,7 +5,7 @@ Blockly.Blocks.check_sell = {
     init: function init() {
         this.appendDummyInput().appendField(translate('Sell is available'));
         this.setOutput(true, 'Boolean');
-        this.setColour('#f2f2f2');
+        this.setColour('#162d41'); // sell is available block colour <<<<<<<//
         this.setTooltip(translate('True if sell at market is available'));
         this.setHelpUrl('https://github.com/binary-com/binary-bot/wiki');
     },

@@ -7,7 +7,7 @@ Blockly.Blocks.interval = {
         this.appendValueInput('SECONDS').setCheck(null).appendField(translate('Run Every'));
         this.appendDummyInput().appendField(translate('Second(s)'));
         this.setInputsInline(true);
-        this.setColour('#fef1cf');
+        this.setColour('#162d41'); // time seconds block colour <<<<<//
         this.setTooltip(translate('Run the blocks inside every n seconds'));
         this.setHelpUrl('https://github.com/binary-com/binary-bot/wiki');
     },

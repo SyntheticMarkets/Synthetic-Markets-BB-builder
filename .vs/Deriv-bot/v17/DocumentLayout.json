@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\deriv bot from binary Main\\Deriv-bot\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\deriv bot from binary Main\\Deriv-bot\\src\\assets\\css\\_variables.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\assets\\css\\_variables.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\deriv bot from binary Main\\Deriv-bot\\src\\blockly\\bot\\__tests__\\block-tests\\indicators.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\blockly\\bot\\__tests__\\block-tests\\indicators.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\deriv bot from binary Main\\Deriv-bot\\src\\blockly\\blocks\\shared.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\blockly\\blocks\\shared.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\deriv bot from binary Main\\Deriv-bot\\src\\blockly\\bot\\Interface\\TicksInterface.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\blockly\\bot\\Interface\\TicksInterface.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\deriv bot from binary Main\\Deriv-bot\\src\\blockly\\blocks\\ticks\\lastDigitList.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\blockly\\blocks\\ticks\\lastDigitList.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_variables.scss",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\deriv bot from binary Main\\Deriv-bot\\src\\assets\\css\\_variables.scss",
+              "RelativeDocumentMoniker": "src\\assets\\css\\_variables.scss",
+              "ToolTip": "C:\\Users\\User\\Desktop\\deriv bot from binary Main\\Deriv-bot\\src\\assets\\css\\_variables.scss",
+              "RelativeToolTip": "src\\assets\\css\\_variables.scss",
+              "ViewState": "AQIAAHIAAAAAAAAAAAAAAHoAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
+              "WhenOpened": "2024-04-21T17:30:38.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "indicators.js",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\deriv bot from binary Main\\Deriv-bot\\src\\blockly\\bot\\__tests__\\block-tests\\indicators.js",
+              "RelativeDocumentMoniker": "src\\blockly\\bot\\__tests__\\block-tests\\indicators.js",
+              "ToolTip": "C:\\Users\\User\\Desktop\\deriv bot from binary Main\\Deriv-bot\\src\\blockly\\bot\\__tests__\\block-tests\\indicators.js",
+              "RelativeToolTip": "src\\blockly\\bot\\__tests__\\block-tests\\indicators.js",
+              "ViewState": "AQIAABwAAAAAAAAAAAAhwC8AAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-04-21T11:16:44.454Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "shared.js",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\deriv bot from binary Main\\Deriv-bot\\src\\blockly\\blocks\\shared.js",
+              "RelativeDocumentMoniker": "src\\blockly\\blocks\\shared.js",
+              "ToolTip": "C:\\Users\\User\\Desktop\\deriv bot from binary Main\\Deriv-bot\\src\\blockly\\blocks\\shared.js",
+              "RelativeToolTip": "src\\blockly\\blocks\\shared.js",
+              "ViewState": "AQIAAHUAAAAAAAAAAAAhwHAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-04-19T08:16:09.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TicksInterface.js",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\deriv bot from binary Main\\Deriv-bot\\src\\blockly\\bot\\Interface\\TicksInterface.js",
+              "RelativeDocumentMoniker": "src\\blockly\\bot\\Interface\\TicksInterface.js",
+              "ToolTip": "C:\\Users\\User\\Desktop\\deriv bot from binary Main\\Deriv-bot\\src\\blockly\\bot\\Interface\\TicksInterface.js",
+              "RelativeToolTip": "src\\blockly\\bot\\Interface\\TicksInterface.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-04-19T06:47:08.696Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "lastDigitList.js",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\deriv bot from binary Main\\Deriv-bot\\src\\blockly\\blocks\\ticks\\lastDigitList.js",
+              "RelativeDocumentMoniker": "src\\blockly\\blocks\\ticks\\lastDigitList.js",
+              "ToolTip": "C:\\Users\\User\\Desktop\\deriv bot from binary Main\\Deriv-bot\\src\\blockly\\blocks\\ticks\\lastDigitList.js",
+              "RelativeToolTip": "src\\blockly\\blocks\\ticks\\lastDigitList.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-04-19T06:46:51.754Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

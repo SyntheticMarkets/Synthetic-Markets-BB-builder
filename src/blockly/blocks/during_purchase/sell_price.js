@@ -5,7 +5,7 @@ Blockly.Blocks.sell_price = {
     init: function init() {
         this.appendDummyInput().appendField(translate('Sell profit/loss'));
         this.setOutput(true, 'Number');
-        this.setColour('#f2f2f2');
+        this.setColour('#162d41'); // check profit or loss block colour <<<<<<<<//
         this.setTooltip(translate('Returns the profit for sell at market.'));
         this.setHelpUrl('https://github.com/binary-com/binary-bot/wiki');
     },

@@ -12,7 +12,7 @@ Blockly.Blocks.macda = {
         this.appendValueInput('SLOW_EMA_PERIOD').setCheck('Number').appendField(translate('Slow EMA Period'));
         this.appendValueInput('SIGNAL_EMA_PERIOD').setCheck('Number').appendField(translate('Signal EMA Period'));
         this.setOutput(true, 'Array');
-        this.setColour('#dedede');
+        this.setColour('#162d41'); // macd array indicator block colour <<<<<<//
         this.setTooltip(translate('Calculates Moving Average Convergence Divergence (MACD) list from a list'));
         this.setHelpUrl('https://github.com/binary-com/binary-bot/wiki');
     },

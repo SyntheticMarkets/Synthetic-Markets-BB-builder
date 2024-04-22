@@ -12,7 +12,7 @@ Blockly.Blocks.bb = {
         this.appendValueInput('UPMULTIPLIER').setCheck('Number').appendField(translate('Std. Dev. Up Multiplier'));
         this.appendValueInput('DOWNMULTIPLIER').setCheck('Number').appendField(translate('Std. Dev. Down Multiplier'));
         this.setOutput(true, 'Number');
-        this.setColour('#dedede');
+        this.setColour('#162d41'); // BB indicator block coour <<<<<<<//
         this.setTooltip(translate('Calculates Bollinger Bands (BB) from a list with a period'));
         this.setHelpUrl('https://github.com/binary-com/binary-bot/wiki');
     },

@@ -4,7 +4,7 @@ Blockly.Blocks.total_profit = {
     init: function init() {
         this.appendDummyInput().appendField(translate('Total Profit'));
         this.setOutput(true, 'Number');
-        this.setColour('#dedede');
+        this.setColour('#162d41'); // return the total profit block colour <<<<<//
         this.setTooltip(translate('Returns the total profit'));
         this.setHelpUrl('https://github.com/binary-com/binary-bot/wiki');
     },
@@ -28,7 +28,7 @@ Blockly.Blocks.total_profit_string = {
     init: function init() {
         this.appendDummyInput().appendField(translate('Total Profit String'));
         this.setOutput(true, 'String');
-        this.setColour('#dedede');
+        this.setColour('#162d41'); // return the total profit string block colour <<<<<<//
         this.setTooltip(translate('Return the total profit (String)'));
         this.setHelpUrl('https://github.com/binary-com/binary-bot/wiki');
     },

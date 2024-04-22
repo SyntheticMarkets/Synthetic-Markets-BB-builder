@@ -8,7 +8,7 @@ Blockly.Blocks.read_details = {
             .appendField(translate('Contract Detail:'))
             .appendField(new Blockly.FieldDropdown(config.lists.DETAILS), 'DETAIL_INDEX');
         this.setOutput(true, null);
-        this.setColour('#f2f2f2');
+        this.setColour('#162d41'); // contract detail statement block colour <<<<<<<<//
         this.setTooltip(translate('Reads a selected option from contract details list'));
         this.setHelpUrl('https://github.com/binary-com/binary-bot/wiki');
     },

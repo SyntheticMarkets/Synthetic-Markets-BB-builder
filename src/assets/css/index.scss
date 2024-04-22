@@ -13,7 +13,11 @@ body {
     height: 100%;
     margin: 0px;
     max-width: 100%;
-    overflow-x: hidden;
+    //overflow-x: hidden;
+    overflow: hidden; // change main page to scroll by changin this to > overflow-x: hidden; < only if needed <<<<<<//
+    background-image: url('../../../public/images/loading-background.jpeg'); /* Use the correct path to your image */
+    background-size: cover; /* This will ensure that your background image covers the entire viewport */
+    background-position: center; /* This will center your image in the viewport */
 }
 
 .top-image {
@@ -331,7 +335,7 @@ ul.bullet {
 .header {
     left: 0px;
     top: 0px;
-    background: var(--general-main-1) !important;
+    background-color: #0b1c2b; // header icon menu colour <<<<<<//
     border-top: none !important;
     border-bottom: none !important;
     height: 48px;
@@ -591,7 +595,7 @@ ul.bullet {
     &__divider {
         height: 32px;
         width: 1px;
-        background-color: var(--general-section-1);
+        background-color: #41394a;
     }
 
     &__expand {

@@ -89,8 +89,6 @@ const AccountWalletDropdown = React.forwardRef(({ setIsAccDropdownOpen }, dropdo
                         </div>
                     )}
                     <div className='account__switcher-total-wallet'>
-                        <span>{translate('Looking for CFDs? Go to Trader\'s hub')}</span>
-
                         <a href={config.wallets.url} className={'account__switcher-total--link'}>
                             <img
                                 className={'header__expand'}

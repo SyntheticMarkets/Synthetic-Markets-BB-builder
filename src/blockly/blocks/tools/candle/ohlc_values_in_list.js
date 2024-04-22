@@ -9,7 +9,7 @@ Blockly.Blocks.ohlc_values_in_list = {
             .appendField(new Blockly.FieldDropdown(config.ohlcFields), 'OHLCFIELD_LIST')
             .appendField(translate('values from candles list'));
         this.setOutput(true, 'Array');
-        this.setColour('#dedede');
+        this.setColour('#162d41'); // ohlc value block colour <<<<//
         this.setTooltip(translate('Returns a list of the selected candle values'));
         this.setHelpUrl('https://github.com/binary-com/binary-bot/wiki');
     },

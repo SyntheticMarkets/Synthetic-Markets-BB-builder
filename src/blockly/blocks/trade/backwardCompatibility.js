@@ -31,7 +31,7 @@ export default () => {
             marketDefPlaceHolders(this);
             setInputList(this);
             this.setPreviousStatement(true, 'TradeOptions');
-            this.setColour('#f2f2f2');
+            this.setColour('#162d41'); // Trade options  block colour <<<<<<//
         },
         onchange: function onchange(ev) {
             if (isBlockCreationEvent(ev, this)) {
@@ -76,7 +76,7 @@ Blockly.Blocks.barrier_offset = {
             .appendField(new Blockly.FieldDropdown(config.barrierTypes), 'BARRIEROFFSETTYPE_LIST');
         this.setInputsInline(false);
         this.setOutput(true, 'Number');
-        this.setColour('#dedede');
+        this.setColour('#162d41'); // barrier offset block <<<<<//
         this.setTooltip(translate('Add sign to a number to make a Barrier Offset.'));
         this.setHelpUrl('https://github.com/binary-com/binary-bot/wiki');
     },

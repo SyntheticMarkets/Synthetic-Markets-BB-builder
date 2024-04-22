@@ -8,7 +8,7 @@ Blockly.Blocks.purchase = {
             .appendField(translate('Purchase'))
             .appendField(new Blockly.FieldDropdown(getPurchaseChoices), 'PURCHASE_LIST');
         this.setPreviousStatement(true, 'Purchase');
-        this.setColour('#f2f2f2');
+        this.setColour('#162d41'); // Purchase block colour <<<<<<<<<<//
         this.setTooltip(translate('Purchases a chosen contract.'));
         this.setHelpUrl('https://github.com/binary-com/binary-bot/wiki');
     },

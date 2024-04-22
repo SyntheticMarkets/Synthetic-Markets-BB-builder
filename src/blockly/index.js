@@ -137,24 +137,25 @@ const overrideBlocklyDefaultShape = () => {
 };
 
 const repaintDefaultColours = () => {
-    Blockly.Msg.LOGIC_HUE = '#DEDEDE';
-    Blockly.Msg.LOOPS_HUE = '#DEDEDE';
-    Blockly.Msg.MATH_HUE = '#DEDEDE';
-    Blockly.Msg.TEXTS_HUE = '#DEDEDE';
-    Blockly.Msg.LISTS_HUE = '#DEDEDE';
-    Blockly.Msg.COLOUR_HUE = '#DEDEDE';
-    Blockly.Msg.VARIABLES_HUE = '#DEDEDE';
-    Blockly.Msg.VARIABLES_DYNAMIC_HUE = '#DEDEDE';
-    Blockly.Msg.PROCEDURES_HUE = '#DEDEDE';
+    // logic , math ,text, binary block colour <<<<<//
+    Blockly.Msg.LOGIC_HUE = '#162d41';
+    Blockly.Msg.LOOPS_HUE = '#162d41';
+    Blockly.Msg.MATH_HUE = '#162d41';
+    Blockly.Msg.TEXTS_HUE = '#162d41';
+    Blockly.Msg.LISTS_HUE = '#162d41';
+    Blockly.Msg.COLOUR_HUE = '#162d41';
+    Blockly.Msg.VARIABLES_HUE = '#162d41';
+    Blockly.Msg.VARIABLES_DYNAMIC_HUE = '#162d41';
+    Blockly.Msg.PROCEDURES_HUE = '#162d41';
 
-    Blockly.Blocks.logic.HUE = '#DEDEDE';
-    Blockly.Blocks.loops.HUE = '#DEDEDE';
-    Blockly.Blocks.math.HUE = '#DEDEDE';
-    Blockly.Blocks.texts.HUE = '#DEDEDE';
-    Blockly.Blocks.lists.HUE = '#DEDEDE';
-    Blockly.Blocks.colour.HUE = '#DEDEDE';
-    Blockly.Blocks.variables.HUE = '#DEDEDE';
-    Blockly.Blocks.procedures.HUE = '#DEDEDE';
+    Blockly.Blocks.logic.HUE = '#162d41';
+    Blockly.Blocks.loops.HUE = '#162d41';
+    Blockly.Blocks.math.HUE = '#162d41';
+    Blockly.Blocks.texts.HUE = '#162d41';
+    Blockly.Blocks.lists.HUE = '#162d41';
+    Blockly.Blocks.colour.HUE = '#162d41';
+    Blockly.Blocks.variables.HUE = '#162d41';
+    Blockly.Blocks.procedures.HUE = '#162d41';
 };
 
 export const load = (blockStr, dropEvent = {}) => {

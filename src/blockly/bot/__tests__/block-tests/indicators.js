@@ -34,17 +34,17 @@ const getIndicatorsFromApi = () =>
         `
     watch('before');
     var ticks = Bot.getTicks();
-    result.ticks = ticks
-    result.rsi = Bot.rsi(ticks, ${periods})
-    result.rsia = Bot.rsia(ticks, ${periods})
-    result.bb = Bot.bb(ticks, ${JSON.stringify(bbOption)}, 1)
-    result.bba = Bot.bba(ticks, ${JSON.stringify(bbOption)}, 2)
-    result.ema = Bot.ema(ticks, ${periods})
-    result.emaa = Bot.emaa(ticks, ${periods})
-    result.macda = Bot.macda(ticks, ${JSON.stringify(macdOption)}, 0)
-    result.sma = Bot.sma(ticks, ${periods})
-    result.smaa = Bot.smaa(ticks, ${periods})
-  `
+    result.ticks = ticks;
+    result.rsi = Bot.rsi(ticks, ${periods});
+    result.rsia = Bot.rsia(ticks, ${periods});
+    result.bb = Bot.bb(ticks, ${JSON.stringify(bbOption)}, 1);
+    result.bba = Bot.bba(ticks, ${JSON.stringify(bbOption)}, 2);
+    result.ema = Bot.ema(ticks, ${periods});
+    result.emaa = Bot.emaa(ticks, ${periods});
+    result.macda = Bot.macda(ticks, ${JSON.stringify(macdOption)}, 0);
+    result.sma = Bot.sma(ticks, ${periods});
+    result.smaa = Bot.smaa(ticks, ${periods});
+	`
     );
 
 describe('Relative Strength Index', () => {

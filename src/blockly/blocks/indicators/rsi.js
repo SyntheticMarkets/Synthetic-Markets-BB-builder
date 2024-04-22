@@ -7,7 +7,7 @@ Blockly.Blocks.rsi = {
         this.appendValueInput('INPUT').setCheck('Array').appendField(translate('Input List'));
         this.appendValueInput('PERIOD').setCheck('Number').appendField(translate('Period'));
         this.setOutput(true, 'Number');
-        this.setColour('#dedede');
+        this.setColour('#162d41'); // rsi indictor block colour <<<<<<//
         this.setTooltip(translate('Relative Strength Index (RSI) from a list with a period'));
         this.setHelpUrl('https://github.com/binary-com/binary-bot/wiki');
     },

@@ -3,11 +3,11 @@
 }
 
 .blocklyText {
-    fill: #000 !important;
+    fill: #7591aa !important; // Binary Blocks Text Colour <<<<<<<//
 }
 
 .blocklyTreeSelected .blocklyTreeLabel {
-    color: #fff !important;
+    color: #0b1c2b !important; // Binary blocks text colour after selected <<<<<<<//
 }
 
 .blocklyTreeRow.blocklyTreeSelected .blocklyTreeIcon.blocklyTreeIconOpen,
@@ -26,41 +26,44 @@
 }
 
 .blocklyTreeRow.blocklyTreeSelected {
-    background-color: var(--color-blue) !important;
+    background-color: var(--color-blue) !important; //blocks after selected colour <<<<<<<<//
 }
 
 .blocklyTreeRow:not(.blocklyTreeSelected):hover {
-    background-color: var(--color-light-grey) !important;
+    background-color: var(--color-orange) !important; // left menu hovering selector colour <<<<<<<<//
 }
 
 .blocklyToolboxDiv .blocklyTreeRow {
-    color: #000;
+    color: #7591aa; // Binary blocks left menu Words colour <<<<<<<<//
 }
 
 .blocklyEditableText tspan {
-    fill: #000 !important;
+    fill: #7591aa !important; //  Binary blocks left menu text colour <<<<<<<<//
 }
 
 .blocklyEditableText rect {
     fill-opacity: 1 !important;
+    fill: #0b1c2b !important; // Change editable text background in blocks colour <<<<<//
 }
 
 .blocklyFlyoutBackground {
-    fill: #fff !important;
+    fill: rgba(11, 28, 43, 0.9) !important; // Left menu expander colour <<<<<<<<<//
     fill-opacity: 1 !important;
     stroke: var(--color-light-grey);
     stroke-width: 0.063em;
 }
 
 .blocklyToolboxDiv {
-    background-color: var(--disabled-color) !important;
+    background-color: #0b1c2b; //Change Bot menu colour bar left <<<<<<<<<<//
     border-width: thin;
-    color: var(--color-light-grey);
+    color: #0b1c2b; //Change Bot menu colour bar left <<<<<<//
     border-right: 0.063em solid;
     width: 11em;
     transition: width 0.3s ease-in-out;
+
     @media (max-width: $desktop-width) {
         width: 0;
+
         &__toolbox-open {
             width: 11em;
         }
@@ -101,7 +104,7 @@
 }
 
 .blocklyIconShape {
-    fill: var(--color-blue) !important;
+    fill: var(--color-grey) !important;
 }
 
 .blocklyIconGroup:not(:hover),
@@ -128,8 +131,9 @@
 
 .blocklySvg {
     position: absolute;
+    background-color: rgba(17, 20, 23, 0.5); // Jacques change background for blocks <<<<<//
 }
 
 .blocklyMainBackground {
-    stroke: none;
+    stroke: none !important; /* Ensures no stroke is applied */
 }

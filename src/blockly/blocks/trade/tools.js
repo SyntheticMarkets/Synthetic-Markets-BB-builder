@@ -67,7 +67,7 @@ export const cloneTradeOptions = (clone, block) => {
 export const createTradeOptions = () => {
     const tradeOptions = Blockly.mainWorkspace.newBlock('tradeOptions');
 
-    tradeOptions.initSvg();
+    // tradeOptions.initSvg();
     tradeOptions.render();
 
     return tradeOptions;

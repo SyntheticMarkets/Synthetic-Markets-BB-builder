@@ -7,7 +7,7 @@ Blockly.Blocks.ema = {
         this.appendValueInput('INPUT').setCheck('Array').appendField(translate('Input List'));
         this.appendValueInput('PERIOD').setCheck('Number').appendField(translate('Period'));
         this.setOutput(true, 'Number');
-        this.setColour('#dedede');
+        this.setColour('#162d41'); // ema indicator block colour <<<<<<//
         this.setTooltip(translate('Calculates Exponential Moving Average (EMA) from a list with a period'));
         this.setHelpUrl('https://github.com/binary-com/binary-bot/wiki');
     },

@@ -6,7 +6,7 @@ const related_deriv_origin = getRelatedDerivOrigin();
 
 const getConfig = () => ({
     app_title: 'Binary Bot',
-    app_logo: 'public/images/ic-brand-binarybot.svg',
+    app_logo: 'public/images/ic-brand-binarybot.png', // Binary bot menu dropdown logo <<<<<//
     supported_languages: {
         en: 'English',
         es: 'Español',
@@ -129,45 +129,47 @@ const getConfig = () => ({
         // },
     },
     platforms: [
-        {
-            title: 'DTrader',
-            description: translate('A whole new trading experience on a powerful yet easy to use platform.'),
-            link: related_deriv_origin.origin,
-            logo: 'public/images/ic-brand-dtrader.svg',
-        },
-        {
-            title: 'DBot',
-            description: translate('Automated trading at your fingertips. No coding needed.'),
-            link: `${related_deriv_origin.origin}/bot`,
-            logo: 'public/images/ic-brand-dbot.svg',
-        },
-        {
-            title: 'SmartTrader',
-            description: translate('Trade the world\'s markets with our popular user-friendly platform.'),
-            link: `https://${related_deriv_origin.prefix}smarttrader.deriv.${related_deriv_origin.extension}/`,
-            logo: 'public/images/ic-brand-smarttrader.svg',
-        },
+        // switch platforms on and off and redirect functions <<<<<<//
+        // {
+
+        //   title: 'DTrader',
+        // description: translate('A whole new trading experience on a powerful yet easy to use platform.'),
+        // link: related_deriv_origin.origin,
+        // logo: 'public/images/ic-brand-dtrader.svg',
+        // },
+        // {
+        //   title: 'DBot',
+        //   description: translate('Automated trading at your fingertips. No coding needed.'),
+        //   link: `${related_deriv_origin.origin}/bot`,
+        //   logo: 'public/images/ic-brand-dbot.svg',
+        // },
+        //  {
+        //   title: 'SmartTrader',
+        //    description: translate('Trade the world\'s markets with our popular user-friendly platform.'),
+        //    link: `https://${related_deriv_origin.prefix}smarttrader.deriv.${related_deriv_origin.extension}/`,
+        //    logo: 'public/images/ic-brand-smarttrader.svg',
+        //  },
         {
             title: 'Binary Bot',
             description: translate(
-                'Our classic “drag-and-drop” tool for creating trading bots, featuring pop-up trading charts, for advanced users.'
+                'Synthetic Markets advance “drag-and-drop” tool for creating trading bots, featuring pop-up trading charts, for advanced users.'
             ),
             link: '/',
-            logo: 'public/images/ic-brand-binarybot.svg',
+            logo: 'public/images/ic-brand-binarybot.png', // Binary bot in menu logo <<<<<<//
         },
     ],
     add_account: {
-        visible: true,
+        visible: false,
         label: translate('Add Deriv account'),
         url: generateDerivLink('redirect', 'action=add_account'),
     },
     add_account_multiplier: {
-        visible: true,
+        visible: false,
         label: translate('Add Deriv account'),
         url: generateDerivLink('redirect', 'action=add_account_multiplier'),
     },
     help_center: {
-        visible: true,
+        visible: false,
         url: `https://deriv.${related_deriv_origin.extension}/help-centre`,
     },
     trading_view_chart: {
@@ -183,21 +185,21 @@ const getConfig = () => ({
     },
     signup: {
         // URL to the common signup page
-        url: `https://deriv.${related_deriv_origin.extension}/signup/`,
+        url: 'https://track.deriv.com/_oJ6DJstYI6m2vdm9PpHVCmNd7ZgqdRLk/1//',
         label: translate('Sign up'),
     },
     reports: {
-        visible: true,
+        visible: false,
         url: generateDerivLink('reports/positions'),
         label: translate('Reports'),
     },
     cashier: {
-        visible: true,
+        visible: false,
         url: generateDerivLink('cashier/deposit'),
         label: translate('Cashier'),
     },
     tradershub: {
-        visible: true,
+        visible: false,
         url: generateDerivLink('appstore/traders-hub'),
         label: translate('Trader\'s Hub'),
     },
@@ -205,12 +207,12 @@ const getConfig = () => ({
         url: generateDerivLink('wallets'),
     },
     deposit: {
-        visible: true,
+        visible: false,
         url: `${related_deriv_origin.origin}/cashier/deposit?lang=${localStorage.getItem('lang')}`,
         label: translate('Deposit'),
     },
     manage_funds: {
-        visible: true,
+        visible: false,
         url: `${related_deriv_origin.origin}/wallets/cashier/transfer?lang=${localStorage.getItem('lang')}`,
         label: translate('Manage Funds'),
     },

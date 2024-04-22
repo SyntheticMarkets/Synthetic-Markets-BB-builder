@@ -12,7 +12,7 @@ Blockly.Blocks.webhook = {
                     name: 'WEBHOOK_URL',
                 },
             ],
-            colour: '#dedede',
+            colour: '#162d41', // Webhook block colour <<<<<//
             previousStatement: null,
             nextStatement: null,
             tooltip: translate('Sends a POST request to a URL'),

@@ -8,7 +8,7 @@ Blockly.Blocks.timeout = {
         this.appendDummyInput().appendField(translate('Second(s)'));
         this.setInputsInline(true);
         this.setPreviousStatement(true, null);
-        this.setColour('#fef1cf');
+        this.setColour('#162d41'); // After every seconds block colour <<<<//
         this.setTooltip(translate('Run the blocks inside after n seconds'));
         this.setHelpUrl('https://github.com/binary-com/binary-bot/wiki');
     },

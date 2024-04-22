@@ -325,8 +325,8 @@
 }
 
 @mixin toolbox-button-base {
-    background-color: var(--disabled-color);
-    color: #000;
+    background-color: #0b1c2b; // load , run ,reset , google drive tool bar colour <<<<<<<//
+    color: #7591aa; // load , run ,reset , google drive tool bar colour <<<<<<//
     padding: 0em;
     width: 40px;
     height: 40px;
@@ -343,5 +343,5 @@
 }
 
 @mixin toolbox-runButton-hover {
-    background-color: var(--color-light-grey-2);
+    background-color: var(--color-orange); // load , run ,reset , google drive tool bar colour <<<<<<//
 }

@@ -11,7 +11,7 @@ Blockly.Blocks.read_ohlc_obj = {
             .appendField(translate('value in candle'));
         this.setInputsInline(false);
         this.setOutput(true, 'Number');
-        this.setColour('#dedede');
+        this.setColour('#162d41'); // read candle value block colour <<<<<//
         this.setTooltip(translate('Read a field in a candle (read from the Candles list)'));
         this.setHelpUrl('https://github.com/binary-com/binary-bot/wiki');
     },

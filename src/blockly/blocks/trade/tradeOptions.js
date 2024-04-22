@@ -18,7 +18,7 @@ export default () => {
         init: function init() {
             setInputList(this);
             this.setPreviousStatement(true, 'TradeOptions');
-            this.setColour('#f2f2f2');
+            this.setColour('#162d41'); // Trade options block colour <<<<<//
         },
         onchange: function onchange(ev) {
             insideTrade(this, ev, translate('Trade Options'));

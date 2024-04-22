@@ -5,10 +5,7 @@ import { translate } from '@i18n';
 const OfficialVersionWarning = ({ show }) =>
     show ? (
         <div className='version-warning'>
-            <div id='end-note'>
-                {`${translate('This is not an official version of Binary Bot, use at your own risk.')} `}
-                <a href='https://bot.deriv.com'>{translate('Official Version')}</a>
-            </div>
+            <div id='end-note'>{`${translate('')} `}</div>
         </div>
     ) : null;
 

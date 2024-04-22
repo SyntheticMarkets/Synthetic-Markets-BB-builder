@@ -180,11 +180,6 @@ const AccountDropdown = React.forwardRef((props, dropdownRef) => {
                     <Separator />
                     {/* only if we have real account */}
 
-                    {eu_accounts?.length || non_eu_accounts?.length || is_demo ? (
-                        <a href={config.tradershub.url} className={'account__switcher-total--link'}>
-                            <span>{translate('Looking for CFD accounts? Go to Trader\'s hub')}</span>
-                        </a>
-                    ) : null}
                     <Separator />
                     <div
                         className={classNames('account__switcher-footer', {
@@ -194,11 +189,7 @@ const AccountDropdown = React.forwardRef((props, dropdownRef) => {
                     >
                         {is_real && Object.keys(accounts).length > 1 && (
                             <a href={url} rel='noopener noreferrer'>
-                                <div>
-                                    <button className='account__switcher-footer__manage'>
-                                        {translate('Manage accounts')}
-                                    </button>
-                                </div>
+                                <div></div>
                             </a>
                         )}
                         <div

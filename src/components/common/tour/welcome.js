@@ -6,7 +6,7 @@ import { translate } from '@i18n';
 // [TODO]: Refactor direct DOM calls
 const CustomBeaconComponent = ({ closeTourPermanently, continueTour }) => (
     <div className='tour__beacon'>
-        <p>{translate('Ready to learn how to use Binary Bot?')}</p>
+        <p>{translate('Ready to learn how to use Synthetic Markets Algo Builder?')}</p>
         <div>
             <a className='button-secondary tour__beacon__button' onClick={closeTourPermanently}>
                 <span>{translate('No Thanks')}</span>
@@ -40,7 +40,7 @@ const FifthStep = () => <p>{translate('Control your blocks. Hold the cursor on e
 const SixthStep = () => (
     <p>
         {translate('Want to report an issue or ask for help?')}
-        <a target='blank' href='https://github.com/binary-com/binary-bot/issues/new'>
+        <a target='blank' href='info@syntheticmarkets.co.za'>
             {translate('Click here')}
         </a>
     </p>

@@ -178,7 +178,7 @@ export const setBlockTextColor = block => {
                     if (field instanceof Blockly.FieldLabel) {
                         const svgElement = field.getSvgRoot();
                         if (svgElement) {
-                            svgElement.style.setProperty('fill', 'white', 'important');
+                            svgElement.style.setProperty('fill', '#7591aa', 'important');
                         }
                     }
                 });
@@ -189,7 +189,7 @@ export const setBlockTextColor = block => {
     if (field) {
         const svgElement = field.getSvgRoot();
         if (svgElement) {
-            svgElement.style.setProperty('fill', 'white', 'important');
+            svgElement.style.setProperty('fill', '#7591aa', 'important');
         }
     }
     Blockly.Events.recordUndo = true;

@@ -12,7 +12,7 @@ Blockly.Blocks.notify = {
             .appendField(new Blockly.FieldDropdown(config.lists.NOTIFICATION_SOUND), 'NOTIFICATION_SOUND');
         this.setPreviousStatement(true, null);
         this.setNextStatement(true, null);
-        this.setColour('#dedede');
+        this.setColour('#162d41'); // create notification block<<<<<//
         this.setTooltip(translate('Creates notification'));
         this.setHelpUrl('https://github.com/binary-com/binary-bot/wiki');
     },

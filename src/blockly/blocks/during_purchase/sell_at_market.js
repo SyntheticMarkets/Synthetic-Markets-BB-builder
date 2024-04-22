@@ -5,7 +5,7 @@ Blockly.Blocks.sell_at_market = {
     init: function init() {
         this.appendDummyInput().appendField(translate('Sell at market'));
         this.setPreviousStatement(true, 'SellAtMarket');
-        this.setColour('#f2f2f2');
+        this.setColour('#162d41'); // Sell at market block colour <<<<<<<<//
         this.setTooltip(translate('Sell at market.'));
         this.setHelpUrl('https://github.com/binary-com/binary-bot/wiki');
     },

@@ -5,7 +5,7 @@ Blockly.Blocks.ticks = {
     init: function init() {
         this.appendDummyInput().appendField(translate('Ticks List'));
         this.setOutput(true, 'Array');
-        this.setColour('#f2f2f2');
+        this.setColour('#162d41'); // Tick list block colour<<<<<<//
         this.setTooltip(translate('Returns the list of tick values'));
         this.setHelpUrl('https://github.com/binary-com/binary-bot/wiki');
     },
@@ -23,7 +23,7 @@ Blockly.Blocks.ticks_string = {
     init: function init() {
         this.appendDummyInput().appendField(translate('Ticks String List'));
         this.setOutput(true, 'Array');
-        this.setColour('#f2f2f2');
+        this.setColour('#162d41'); // tick string list block colour <<<<<//
         this.setTooltip(translate('Returns the list of tick values (String)'));
         this.setHelpUrl('https://github.com/binary-com/binary-bot/wiki');
     },

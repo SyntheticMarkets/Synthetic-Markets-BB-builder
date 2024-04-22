@@ -7,7 +7,7 @@ Blockly.Blocks.sma = {
         this.appendValueInput('INPUT').setCheck('Array').appendField(translate('Input List'));
         this.appendValueInput('PERIOD').setCheck('Number').appendField(translate('Period'));
         this.setOutput(true, 'Number');
-        this.setColour('#dedede');
+        this.setColour('#162d41'); // sma indicator block colour <<<<<//
         this.setTooltip(translate('Calculates Simple Moving Average (SMA) from a list with a period'));
         this.setHelpUrl('https://github.com/binary-com/binary-bot/wiki');
     },

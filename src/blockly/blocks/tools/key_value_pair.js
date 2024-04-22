@@ -15,7 +15,7 @@ Blockly.Blocks.key_value_pair = {
                     name: 'VALUE',
                 },
             ],
-            colour: '#dedede',
+            colour: '#162d41', // key value block colour <<<<<//
             output: null,
             tooltip: translate('Returns a string representation of a key value pair'),
         });

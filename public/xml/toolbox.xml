@@ -1,4 +1,60 @@
 <xml id="toolbox" style="display: none">
+    <!-- How to set the menu Jacques Define each menu with the opening tag ex: -->
+    <!-- Ensure the previous menu and current menu is closed with their own tag -->
+
+    <category name="Main Blocks" i18n-text="Main Blocks"> <!-- Main Blocks Menu -->
+        <category name="Trade Definition" i18n-text="Trade Definition">
+            <block type="trade"></block>
+            <block type="tradeOptions">
+                <value name="DURATION">
+                    <shadow type="math_number">
+                        <field name="NUM">5</field>
+                    </shadow>
+                </value>
+                <value name="AMOUNT">
+                    <shadow type="math_number">
+                        <field name="NUM">1</field>
+                    </shadow>
+                </value>
+            </block>
+            <block type="tradeOptions_payout">
+                <value name="DURATION">
+                    <shadow type="math_number">
+                        <field name="NUM">5</field>
+                    </shadow>
+                </value>
+                <value name="AMOUNT">
+                    <shadow type="math_number">
+                        <field name="NUM">1</field>
+                    </shadow>
+                </value>
+            </block>
+        </category> <!-- Closing 'Trade Definition' category -->
+
+        <category name="Before Purchase" i18n-text="Before Purchase">
+            <block type="before_purchase"></block>
+            <block type="payout"></block>
+            <block type="ask_price"></block>
+            <block type="purchase"></block>
+        </category> <!-- Closing 'Before Purchase' category -->
+
+        <category name="During Purchase" i18n-text="During Purchase">
+            <block type="during_purchase"></block>
+            <block type="check_sell"></block>
+            <block type="sell_price"></block>
+            <block type="sell_at_market"></block>
+        </category> <!-- Closing 'During Purchase' category -->
+
+        <category name="After Purchase" i18n-text="After Purchase">
+            <block type="after_purchase"></block>
+            <block type="contract_check_result"></block>
+            <block type="read_details"></block>
+            <block type="trade_again"></block>
+        </category> <!-- Closing 'After Purchase' category -->
+    </category> <!-- Closing 'Main Blocks' category -->
+		
+		
+		<category name="General Blocks" i18n-text="General Blocks"> <!-- General Blocks Menu -->
     <category name="Logic" i18n-text="Logic">
         <block type="controls_if"></block>
         <block type="logic_compare"></block>
@@ -7,7 +63,8 @@
         <block type="logic_boolean"></block>
         <block type="logic_null"></block>
         <block type="logic_ternary"></block>
-    </category>
+    </category> <!-- Closing 'Logic' category -->
+	
     <category name="Math" i18n-text="Math">
         <block type="math_number">
             <field name="NUM">1</field>
@@ -103,8 +160,9 @@
             </value>
         </block>
         <block type="math_random_float"></block>
-    </category>
-    <category name="Text" i18n-text="Text">>
+    </category> <!-- Closing 'Math' category -->
+	
+    <category name="Text" i18n-text="Text">
         <block type="text"></block>
         <block type="text_join"></block>
         <block type="text_append">
@@ -180,161 +238,184 @@
                 </shadow>
             </value>
         </block>
-    </category>
-    <category name="Advanced" i18n-text="Advanced">
+    </category> <!-- Closing 'Text' category -->
+
+	
         <category name="List" i18n-text="List">
-            <block type="lists_create_with">
-                <mutation items="0"></mutation>
-            </block>
-            <block type="lists_create_with"></block>
-            <block type="lists_repeat">
-                <value name="NUM">
-                    <shadow type="math_number">
-                        <field name="NUM">5</field>
-                    </shadow>
-                </value>
-            </block>
-            <block type="lists_length"></block>
-            <block type="lists_isEmpty"></block>
-            <block type="lists_indexOf">
-                <value name="VALUE">
-                    <block type="variables_get">
-                        <field name="VAR">list</field>
-                    </block>
-                </value>
-            </block>
-            <block type="lists_getIndex">
-                <value name="VALUE">
-                    <block type="variables_get">
-                        <field name="VAR">list</field>
-                    </block>
-                </value>
-            </block>
-            <block type="lists_setIndex">
-                <value name="LIST">
-                    <block type="variables_get">
-                        <field name="VAR">list</field>
-                    </block>
-                </value>
-            </block>
-            <block type="lists_getSublist">
-                <value name="LIST">
-                    <block type="variables_get">
-                        <field name="VAR">list</field>
-                    </block>
-                </value>
-            </block>
-            <block type="lists_split">
-                <value name="DELIM">
-                    <shadow type="text">
-                        <field name="TEXT">,</field>
-                    </shadow>
-                </value>
-            </block>
-            <block type="lists_sort"></block>
-        </category>
-        <category name="Variable" id="Variables" custom="VARIABLE" i18n-text="Variable">></category>
-        <category name="Functions" id="Functions" custom="PROCEDURE" i18n-text="Functions"></category>
-        <category name="Loop" i18n-text="Loop">
-            <block type="controls_repeat_ext"></block>
-            <block type="controls_repeat"></block>
-            <block type="controls_whileUntil"></block>
-            <block type="controls_for"></block>
-            <block type="controls_forEach"></block>
-            <block type="controls_flow_statements"></block>
-        </category>
-    </category>
-    <category name="Binary" i18n-text="Binary">
-        <category name="Trade Definition" i18n-text="Trade Definition">
-            <block type="trade"></block>
-            <block type="tradeOptions">
-                <value name="DURATION">
-                    <shadow type="math_number">
-                        <field name="NUM">5</field>
-                    </shadow>
-                </value>
-                <value name="AMOUNT">
-                    <shadow type="math_number">
-                        <field name="NUM">1</field>
-                    </shadow>
-                </value>
-            </block>
-            <block type="tradeOptions_payout">
-                <value name="DURATION">
-                    <shadow type="math_number">
-                        <field name="NUM">5</field>
-                    </shadow>
-                </value>
-                <value name="AMOUNT">
-                    <shadow type="math_number">
-                        <field name="NUM">1</field>
-                    </shadow>
-                </value>
-            </block>
-        </category>
-        <category name="Before Purchase" i18n-text="Before Purchase">
-            <block type="before_purchase"></block>
-            <block type="payout"></block>
-            <block type="ask_price"></block>
-            <block type="purchase"></block>
-        </category>
-        <category name="During Purchase" i18n-text="During Purchase">
-            <block type="during_purchase"></block>
-            <block type="check_sell"></block>
-            <block type="sell_price"></block>
-            <block type="sell_at_market"></block>
-        </category>
-        <category name="After Purchase" i18n-text="After Purchase">
-            <block type="after_purchase"></block>
-            <block type="contract_check_result"></block>
-            <block type="read_details"></block>
-            <block type="trade_again"></block>
-        </category>
-        <category name="Tick Analysis" i18n-text="Tick Analysis">
-            <block type="tick_analysis"></block>
-            <block type="tick"></block>
-            <block type="tick_string"></block>
-            <block type="last_digit"></block>
-            <block type="read_ohlc">
-                <field name="OHLCFIELD_LIST">open</field>
-                <value name="CANDLEINDEX">
-                    <shadow type="math_number">
-                        <field name="NUM">1</field>
-                    </shadow>
-                </value>
-            </block>
-            <block type="check_direction"></block>
-            <category name="Advanced" i18n-text="Advanced">
-                <block type="get_ohlc">
-                    <value name="CANDLEINDEX">
-                        <shadow type="math_number">
-                            <field name="NUM">1</field>
-                        </shadow>
-                    </value>
+        <block type="lists_create_with">
+            <mutation items="0"></mutation>
+        </block>
+        <block type="lists_create_with"></block>
+        <block type="lists_repeat">
+            <value name="NUM">
+                <shadow type="math_number">
+                    <field name="NUM">5</field>
+                </shadow>
+            </value>
+        </block>
+        <block type="lists_length"></block>
+        <block type="lists_isEmpty"></block>
+        <block type="lists_indexOf">
+            <value name="VALUE">
+                <block type="variables_get">
+                    <field name="VAR">list</field>
                 </block>
-                <block type="ticks"></block>
-                <block type="ticks_string"></block>
-                <block type="lastDigitList"></block>
-                <block type="ohlc"></block>
-                <block type="ohlc_values"></block>
-            </category>
-        </category>
-        <category name="Indicators" i18n-text="Indicators">
-            <block type="sma">
+            </value>
+        </block>
+        <block type="lists_getIndex">
+            <value name="VALUE">
+                <block type="variables_get">
+                    <field name="VAR">list</field>
+                </block>
+            </value>
+        </block>
+        <block type="lists_setIndex">
+            <value name="LIST">
+                <block type="variables_get">
+                    <field name="VAR">list</field>
+                </block>
+            </value>
+        </block>
+        <block type="lists_getSublist">
+            <value name="LIST">
+                <block type="variables_get">
+                    <field name="VAR">list</field>
+                </block>
+            </value>
+        </block>
+        <block type="lists_split">
+            <value name="DELIM">
+                <shadow type="text">
+                    <field name="TEXT">,</field>
+                </shadow>
+            </value>
+        </block>
+        <block type="lists_sort"></block>
+    </category> <!-- Closing 'List' category -->
+		
+        <category name="Variable" id="Variables" custom="VARIABLE" i18n-text="Variable"></category> <!-- Closing 'Variable' category -->
+    <category name="Functions" id="Functions" custom="PROCEDURE" i18n-text="Functions"></category> <!-- Closing 'Functions' category -->
+    <category name="Loop" i18n-text="Loop">
+        <block type="controls_repeat_ext"></block>
+        <block type="controls_repeat"></block>
+        <block type="controls_whileUntil"></block>
+        <block type="controls_for"></block>
+        <block type="controls_forEach"></block>
+        <block type="controls_flow_statements"></block>
+    </category> <!-- Closing 'Loop' category -->
+	</category> <!-- Closing 'General Blocks' category -->
+ 
+			
+		
+		
+		
+		
+	<category name="Market Data" i18n-text="Market Data"> <!-- Market Data Menu -->
+    <category name="Tick Analysis" i18n-text="Tick Analysis">
+        <block type="tick_analysis"></block>
+        <block type="tick"></block>
+        <block type="tick_string"></block>
+        <block type="ticks"></block>
+        <block type="ticks_string"></block>
+    </category> <!-- Closing 'Tick Analysis' -->
+
+    <category name="Digit Analysis" i18n-text="Digit Analysis">
+        <block type="last_digit"></block>
+        <block type="lastDigitList"></block>
+    </category> <!-- Closing 'Digit Analysis' -->
+
+    <category name="Candle Analysis" i18n-text="Candle Analysis">
+        <block type="ohlc"></block>
+        <block type="ohlc_values"></block>
+        <block type="read_ohlc">
+            <field name="OHLCFIELD_LIST">open</field>
+            <value name="CANDLEINDEX">
+                <shadow type="math_number">
+                    <field name="NUM">1</field>
+                </shadow>
+            </value>
+        </block>
+        <block type="check_direction"></block>
+        <block type="get_ohlc">
+            <value name="CANDLEINDEX">
+                <shadow type="math_number">
+                    <field name="NUM">1</field>
+                </shadow>
+            </value>
+        </block>
+        <block type="is_candle_black"></block>
+        <block type="ohlc_values_in_list"></block>
+		<block type="ohlc"></block>
+        <block type="read_ohlc_obj"></block>
+    </category> <!-- Closing 'Candle Analysis' -->
+	</category> <!-- Closing 'Markets Data' category -->
+	
+	<category name="Money Management" i18n-text="Money Management"> <!-- Money Management Menu -->
+	<category name="Martingale" i18n-text="Martingale"> <!-- Martingale Blocks Menu -->
+		<block type="ohlc"></block>
+	
+	
+	</category> <!-- Martingale list' Menu -->
+	</category> <!-- Closing 'Money Management' category -->
+ 
+
+	   <category name="Technical Analysis" i18n-text="Technical Analysis"> <!-- Technical Analysis Menu -->
+    <category name="Indicators" i18n-text="Indicators"> <!-- Indicators Blocks Menu -->
+        <block type="sma">
+            <value name="PERIOD">
+                <shadow type="math_number">
+                    <field name="NUM">10</field>
+                </shadow>
+            </value>
+        </block>
+        <block type="ema">
+            <value name="PERIOD">
+                <shadow type="math_number">
+                    <field name="NUM">10</field>
+                </shadow>
+            </value>
+        </block>
+        <block type="bb">
+            <field name="BBRESULT_LIST">1</field>
+            <value name="PERIOD">
+                <shadow type="math_number">
+                    <field name="NUM">10</field>
+                </shadow>
+            </value>
+            <value name="UPMULTIPLIER">
+                <shadow type="math_number">
+                    <field name="NUM">5</field>
+                </shadow>
+            </value>
+            <value name="DOWNMULTIPLIER">
+                <shadow type="math_number">
+                    <field name="NUM">5</field>
+                </shadow>
+            </value>
+        </block>
+        <block type="rsi">
+            <value name="PERIOD">
+                <shadow type="math_number">
+                    <field name="NUM">10</field>
+                </shadow>
+            </value>
+        </block>
+        <category name="Advanced" i18n-text="Advanced">
+            <block type="smaa">
                 <value name="PERIOD">
                     <shadow type="math_number">
                         <field name="NUM">10</field>
                     </shadow>
                 </value>
             </block>
-            <block type="ema">
+            <block type="emaa">
                 <value name="PERIOD">
                     <shadow type="math_number">
                         <field name="NUM">10</field>
                     </shadow>
                 </value>
             </block>
-            <block type="bb">
+            <block type="bba">
                 <field name="BBRESULT_LIST">1</field>
                 <value name="PERIOD">
                     <shadow type="math_number">
@@ -352,149 +433,107 @@
                     </shadow>
                 </value>
             </block>
-            <block type="rsi">
+            <block type="rsia">
                 <value name="PERIOD">
                     <shadow type="math_number">
                         <field name="NUM">10</field>
                     </shadow>
                 </value>
             </block>
-            <category name="Advanced" i18n-text="Advanced">
-                <block type="smaa">
-                    <value name="PERIOD">
-                        <shadow type="math_number">
-                            <field name="NUM">10</field>
-                        </shadow>
-                    </value>
-                </block>
-                <block type="emaa">
-                    <value name="PERIOD">
-                        <shadow type="math_number">
-                            <field name="NUM">10</field>
-                        </shadow>
-                    </value>
-                </block>
-                <block type="bba">
-                    <field name="BBRESULT_LIST">1</field>
-                    <value name="PERIOD">
-                        <shadow type="math_number">
-                            <field name="NUM">10</field>
-                        </shadow>
-                    </value>
-                    <value name="UPMULTIPLIER">
-                        <shadow type="math_number">
-                            <field name="NUM">5</field>
-                        </shadow>
-                    </value>
-                    <value name="DOWNMULTIPLIER">
-                        <shadow type="math_number">
-                            <field name="NUM">5</field>
-                        </shadow>
-                    </value>
-                </block>
-                <block type="rsia">
-                    <value name="PERIOD">
-                        <shadow type="math_number">
-                            <field name="NUM">10</field>
-                        </shadow>
-                    </value>
-                </block>
-                <block type="macda">
-                    <field name="MACDFIELDS_LIST">0</field>
-                    <value name="FAST_EMA_PERIOD">
-                        <shadow type="math_number">
-                            <field name="NUM">12</field>
-                        </shadow>
-                    </value>
-                    <value name="SLOW_EMA_PERIOD">
-                        <shadow type="math_number">
-                            <field name="NUM">26</field>
-                        </shadow>
-                    </value>
-                    <value name="SIGNAL_EMA_PERIOD">
-                        <shadow type="math_number">
-                            <field name="NUM">9</field>
-                        </shadow>
-                    </value>
-                </block>
-            </category>
-        </category>
-        <category name="Tools" i18n-text="Tools">
-            <category name="Time" i18n-text="Time">
-                <block type="epoch"></block>
-                <block type="totimestamp">
-                    <value name="DATETIME">
-                        <shadow type="text">
-                            <field name="TEXT">yyyy-mm-dd hh:mm:ss</field>
-                        </shadow>
-                    </value>                
-                </block>
-                <block type="todatetime">
-                    <value name="TIMESTAMP">
-                        <shadow type="math_number">
-                            <field name="NUM">0</field>
-                        </shadow>
-                    </value>
-                </block>                
-                <block type="timeout">
-                    <value name="SECONDS">
-                        <shadow type="math_number">
-                            <field name="NUM">1</field>
-                        </shadow>
-                    </value>
-                </block>
-            </category>
-            <category name="Candle" i18n-text="Candle">
-                <block type="is_candle_black"></block>
-                <block type="ohlc_values_in_list"></block>
-                <block type="read_ohlc_obj"></block>
-            </category>
-            <category name="Misc." i18n-text="Misc.">
-                <block type="balance"></block>
-                <block type="total_profit"></block>
-                <block type="total_profit_string"></block>
-                <block type="total_runs"></block>
-                <block type="notify">
-                    <field name="NOTIFICATION_TYPE">success</field>
-                    <value name="MESSAGE">
-                        <shadow type="text">
-                            <field name="TEXT">abc</field>
-                        </shadow>
-                    </value>
-                </block>
-                <block type="notify_telegram" id=":L;o$/S0X^2^nt%taS5}">
-                    <value name="TELEGRAM_ACCESS_TOKEN">
-                        <shadow type="text">
-                            <field name="TEXT"></field>
-                        </shadow>
-                    </value>
-                    <value name="TELEGRAM_CHAT_ID">
-                        <shadow type="text">
-                            <field name="TEXT"></field>
-                        </shadow>
-                    </value>
-                    <value name="TELEGRAM_MESSAGE">
-                        <shadow type="text" id="Blg?@.4Ebc6#:s7+f$oa">
-                            <field name="TEXT">abc</field>
-                        </shadow>
-                    </value>
-                </block>
-                <block type="loader"></block>
-                <block type="block_holder"></block>
-                <block type="webhook">
-                    <value name="WEBHOOK_URL">
-                        <shadow type="text">
-                            <field name="TEXT">https://example.com</field>
-                        </shadow>
-                    </value>
-                    <value name="ADD0">
-                        <block type="key_value_pair">
-                        </block>
-                    </value>
-                </block>
-                <block type="key_value_pair">
-                </block>
-            </category>
-        </category>
-    </category>
+            <block type="macda">
+                <field name="MACDFIELDS_LIST">0</field>
+                <value name="FAST_EMA_PERIOD">
+                    <shadow type="math_number">
+                        <field name="NUM">12</field>
+                    </shadow>
+                </value>
+                <value name="SLOW_EMA_PERIOD">
+                    <shadow type="math_number">
+                        <field name="NUM">26</field>
+                    </shadow>
+                </value>
+                <value name="SIGNAL_EMA_PERIOD">
+                    <shadow type="math_number">
+                        <field name="NUM">9</field>
+                    </shadow>
+                </value>
+            </block>
+        </category> <!-- Closing 'Advanced' category -->
+    </category> <!-- Closing 'Indicators' category -->
+	</category> <!-- Closing 'Technical' category -->
+	
+
+        
+	<category name="Utilities" i18n-text="Utilities"> <!-- Utilities Menu -->
+    <category name="Time" i18n-text="Time">
+        <block type="epoch"></block>
+        <block type="totimestamp">
+            <value name="DATETIME">
+                <shadow type="text">
+                    <field name="TEXT">yyyy-mm-dd hh:mm:ss</field>
+                </shadow>
+            </value>                
+        </block>
+        <block type="todatetime">
+            <value name="TIMESTAMP">
+                <shadow type="math_number">
+                    <field name="NUM">0</field>
+                </shadow>
+            </value>
+        </block>                
+        <block type="timeout">
+            <value name="SECONDS">
+                <shadow type="math_number">
+                    <field name="NUM">1</field>
+                </shadow>
+            </value>
+        </block>
+    </category> <!-- Closing 'Time' category -->
+
+    <category name="Misc." i18n-text="Misc.">
+        <block type="balance"></block>
+        <block type="total_profit"></block>
+        <block type="total_profit_string"></block>
+        <block type="total_runs"></block>
+        <block type="notify">
+            <field name="NOTIFICATION_TYPE">success</field>
+            <value name="MESSAGE">
+                <shadow type="text">
+                    <field name="TEXT">abc</field>
+                </shadow>
+            </value>
+        </block>
+        <block type="notify_telegram" id=":L;o$/S0X^2^nt%taS5}">
+            <value name="TELEGRAM_ACCESS_TOKEN">
+                <shadow type="text">
+                    <field name="TEXT"></field>
+                </shadow>
+            </value>
+            <value name="TELEGRAM_CHAT_ID">
+                <shadow type="text">
+                    <field name="TEXT"></field>
+                </shadow>
+            </value>
+            <value name="TELEGRAM_MESSAGE">
+                <shadow type="text" id="Blg?@.4Ebc6#:s7+f$oa">
+                    <field name="TEXT">abc</field>
+                </shadow>
+            </value>
+        </block>
+        <block type="loader"></block>
+        <block type="block_holder"></block>
+        <block type="webhook">
+            <value name="WEBHOOK_URL">
+                <shadow type="text">
+                    <field name="TEXT">https://example.com</field>
+                </shadow>
+            </value>
+            <value name="ADD0">
+                <block type="key_value_pair"></block>
+            </value>
+        </block>
+        <block type="key_value_pair"></block>
+    </category> <!-- Closing 'Misc.' category -->
+	</category> <!-- Closing 'Utilities.' category -->
 </xml>
+

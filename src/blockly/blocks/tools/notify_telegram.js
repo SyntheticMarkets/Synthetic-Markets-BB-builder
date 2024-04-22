@@ -21,7 +21,7 @@ Blockly.Blocks.notify_telegram = {
                     name: 'TELEGRAM_MESSAGE',
                 },
             ],
-            colour: '#dedede',
+            colour: '#162d41', // notify telegram block colour<<<<<//
             inputsInline: true,
             previousStatement: null,
             nextStatement: null,

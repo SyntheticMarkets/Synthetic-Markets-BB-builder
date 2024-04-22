@@ -8,7 +8,7 @@ Blockly.Blocks.ask_price = {
             .appendField(translate('Ask Price'))
             .appendField(new Blockly.FieldDropdown(() => getPurchaseChoices()), 'PURCHASE_LIST');
         this.setOutput(true, 'Number');
-        this.setColour('#f2f2f2');
+        this.setColour('#162d41'); // ask price block colour <<<<<<<<<<//
         this.setTooltip(translate('Ask Price for selected proposal'));
         this.setHelpUrl('https://github.com/binary-com/binary-bot/wiki');
     },

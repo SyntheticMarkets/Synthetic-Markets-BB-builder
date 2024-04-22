@@ -2,17 +2,17 @@ export const MAX_MOBILE_WIDTH = 813;
 
 export const APP_ID_MAP = Object.freeze({
     production: Object.freeze({
-        'bot.deriv.com': '29864',
-        'bot.deriv.me': '29864', // todo: change when will be registered
-        'bot.deriv.be': '31223',
+        'bot.deriv.com': '53484',
+        'bot.deriv.me': '53484', // todo: change when will be registered
+        'bot.deriv.be': '53484',
     }),
     staging: Object.freeze({
-        'staging-bot.deriv.com': '29934',
-        'staging-bot.deriv.be': '31248',
+        'staging-bot.deriv.com': '53484',
+        'staging-bot.deriv.be': '53484',
     }),
     dev: Object.freeze({
-        localhost: '16014',
-        'localbot.binary.sx': '16014',
+        localhost: '53484',
+        'localbot.binary.sx': '53484',
     }),
 });
 
@@ -24,3 +24,5 @@ export const OFFICIAL_BOT_DOMAINS = [
     'staging-bot.deriv.be',
     'staging-bot.deriv.me',
 ];
+
+// Jacques Change APPID

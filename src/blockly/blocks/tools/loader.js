@@ -8,7 +8,7 @@ Blockly.Blocks.loader = {
             .appendField(`${translate('Load Block From')}:`)
             .appendField(new Blockly.FieldTextInput('http://www.example.com/block.xml'), 'URL');
         this.setInputsInline(true);
-        this.setColour('#dedede');
+        this.setColour('#162d41'); // load from url block collor<<<<<//
         this.setTooltip(translate('Load blocks from url'));
         this.setHelpUrl('https://github.com/binary-com/binary-bot/wiki');
         this.loadedByMe = [];
